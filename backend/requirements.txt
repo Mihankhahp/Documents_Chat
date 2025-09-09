@@ -1,0 +1,17 @@
+# Keep this readable; constraints.txt will pin exact versions
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+passlib[bcrypt]
+chromadb
+sentence-transformers
+langchain-text-splitters
+pypdf
+python-docx
+docx2txt
+pandas
+httpx
+pillow
+openai
+python-multipart

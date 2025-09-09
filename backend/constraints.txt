@@ -1,0 +1,14 @@
+# Lock key libs to avoid resolver backtracking (no extras here!)
+chromadb==0.5.23
+pypika==0.48.9
+numpy==1.26.4
+tokenizers==0.20.3
+
+# Server stack — pins without extras
+fastapi==0.115.9
+uvicorn==0.30.6
+sqlalchemy==2.0.43
+httpx==0.28.1
+pydantic==2.11.7
+python-multipart==0.0.6
+python-dotenv==1.0.1

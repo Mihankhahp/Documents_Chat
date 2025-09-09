@@ -1,0 +1,32 @@
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    env_file:
+      - ./backend/.env.example
+      - ./.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE: http://localhost:8000
+    container_name: frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+volumes:
+  backend_data:
