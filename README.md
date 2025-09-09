@@ -109,8 +109,7 @@ https://github.com/user-attachments/assets/e5cdb727-4ed4-411b-b756-1400d4e42130
 🎥 **Quick Tour Video**: [Tour/Tour.mp4](Tour/Tour.mp4)
 
 
-https://github.com/user-attachments/assets/d33446f8-d89a-41dd-8666-579214042539
-
+https://github.com/user-attachments/assets/8e8ecc28-e315-44ec-8af3-08b63183fb05
 
 
 ---
