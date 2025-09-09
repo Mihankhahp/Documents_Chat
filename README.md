@@ -91,7 +91,6 @@ sequenceDiagram
         P1-->>L: answer
     else LLM_PROVIDER=ollama
         L->>P2: /api/chat (model: llama3:8b-instruct)
-        P3-->>L: answer
     end
 
     L-->>A: answer
