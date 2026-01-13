@@ -3,6 +3,9 @@
 A local-first Retrieval-Augmented Generation (RAG) app with a
 **FastAPI** backend, **React (Vite)** frontend, **ChromaDB** vector store.
 
+🎥 **Demo Video**: [DEMO/DEMO.mp4](DEMO/DEMO.mp4)
+
+https://github.com/user-attachments/assets/e5cdb727-4ed4-411b-b756-1400d4e42130
 ## System Overview
 
 ```mermaid
@@ -98,9 +101,6 @@ sequenceDiagram
     F-->>B: Render answer + citations
 ```
 
-🎥 **Demo Video**: [DEMO/DEMO.mp4](DEMO/DEMO.mp4)
-
-https://github.com/user-attachments/assets/e5cdb727-4ed4-411b-b756-1400d4e42130
 
 ---
 
