@@ -5,7 +5,11 @@ A local-first Retrieval-Augmented Generation (RAG) app with a
 
 🎥 **Demo Video**: [DEMO/DEMO.mp4](DEMO/DEMO.mp4)
 
-https://github.com/user-attachments/assets/e5cdb727-4ed4-411b-b756-1400d4e42130
+
+
+https://github.com/user-attachments/assets/f149ff52-bc85-4079-bc3e-acc88c0a81d7
+
+
 ## System Overview
 
 ```mermaid
